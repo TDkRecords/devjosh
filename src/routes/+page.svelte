@@ -14,6 +14,19 @@
     import Python from "$lib/assets/svg/Python.svelte";
 </script>
 
+<svelte:head>
+    <title>DevJosh</title>
+    <meta name="description" content="DevJosh - Desarrollador web" />
+    <meta
+        name="keywords"
+        content="DevJosh, Desarrollador web, Desarrollo web, Desarrollo web, Desarrollo web"
+    />
+    <meta name="author" content="DevJosh" />
+    <meta name="robots" content="index, follow" />
+    <meta name="application-name" content="DevJosh" />
+    <meta name="msapplication-tooltip" content="DevJosh - Desarrollador web" />
+</svelte:head>
+
 <main class="max-w-6xl mx-auto p-4">
     <!-- titulo -->
     <section class="mx-auto mt-12 mb-12">
@@ -105,11 +118,13 @@
         <p
             class="text-center text-sm sm:text-base mt-4 text-gray-300 max-w-3xl mx-auto"
         >
-            Soy un desarrollador fullstack con experiencia en Django, Flask y
-            SvelteKit. Me apasiona construir aplicaciones web eficientes y
-            escalables, aplicando buenas prácticas y manteniendo un enfoque en
-            la calidad. Estoy listo para aportar mis habilidades y compromiso a
-            nuevos desafíos profesionales.
+            Soy un desarrollador web con experiencia en Django, Flask, Flet y
+            SvelteKit. Usando Python, HTML, CSS y Frameworks de CSS como
+            bootstrap y tailwindcss, Control de versiones con Git/GitHub y Base
+            de datos con MySQL/PostgreSQL. Me apasiona construir aplicaciones
+            eficientes y escalables, aplicando buenas prácticas y manteniendo un
+            enfoque en la calidad. Estoy listo para aportar mis habilidades y
+            compromiso a nuevos desafíos profesionales.
         </p>
     </section>
 
@@ -268,20 +283,6 @@
                         group-hover:opacity-100 group-hover:translate-y-1 transition-all duration-300"
                         >
                             Flask
-                        </span>
-                    </div>
-
-                    <!-- Kivy -->
-                    <div
-                        class="relative group w-14 h-14 bg-gray-900/60 rounded-full flex items-center justify-center shadow cursor-pointer
-                    transform transition duration-300 ease-out hover:scale-110 hover:-rotate-12"
-                    >
-                        <Kivy class="w-8 h-8 text-purple-400" />
-                        <span
-                            class="absolute bottom-16 left-1/2 -translate-x-1/2 px-2 py-1 text-xs text-white bg-black/80 rounded shadow-lg opacity-0
-                        group-hover:opacity-100 group-hover:translate-y-1 transition-all duration-300"
-                        >
-                            Kivy
                         </span>
                     </div>
 
